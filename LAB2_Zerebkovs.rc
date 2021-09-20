@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 441, 237
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "EXIT",IDC_EXIT,7,216,50,14
+    LTEXT           "Process Information",IDC_STATIC,290,21,74,8
+    GROUPBOX        "",IDC_STATIC,210,40,182,116,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "",IDC_STATIC,23,39,162,116,0,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_COMMANDLINE,33,63,116,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,157,64,19,12
+    PUSHBUTTON      "START",IDC_START,33,101,48,20,WS_DISABLED
+    PUSHBUTTON      "TERMINATE",IDC_TERMINATE,118,100,48,20,WS_DISABLED
+    LTEXT           "State",IDC_STATIC,229,68,44,13
+    LTEXT           "Not Running",IDC_STATE,291,67,80,13,SS_SUNKEN
+    LTEXT           "PID",IDC_STATIC,229,87,44,13
+    LTEXT           "Not Running",IDC_PID,291,87,80,13,SS_SUNKEN
+    LTEXT           "Start Time",IDC_STATIC,229,111,44,13
+    LTEXT           "Unknown",IDC_STARTTIME,291,107,80,13,SS_SUNKEN
+    LTEXT           "Finish Time",IDC_STATIC,229,129,44,13
+    LTEXT           "Unknown",IDC_FINISHTIME,291,127,80,13,SS_SUNKEN
+    LTEXT           "Command Line",IDC_STATIC,22,20,74,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
